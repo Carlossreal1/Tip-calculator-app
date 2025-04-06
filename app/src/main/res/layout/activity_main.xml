@@ -108,7 +108,27 @@
             android:layout_height="wrap_content"
             android:textColor="@color/white"
             android:text="20%" />
+
+        <EditText
+            android:id="@+id/et_custom_percentage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:hint=""
+            android:textSize="14dp"
+            android:textColor="@color/white"
+            android:inputType="number"
+            android:maxLength="2"
+            android:minWidth="48dp" />  <!-- Largura mínima para facilitar o toque -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="%"
+            android:textSize="18sp" />
     </RadioGroup>
+
 
     <Button
         android:id="@+id/btn_clean"
