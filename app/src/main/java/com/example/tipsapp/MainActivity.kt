@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
 
-        binding.btnClean.setOnClickListener {
+        binding.btnCalculate.setOnClickListener {
             println("José " + binding.tieTotal.text.toString())
             println("Brunella " + binding.tieNumPeople.text.toString())
         }
