@@ -12,7 +12,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/cafe_da_manha"
+        android:background="@color/cardview_light_background"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,6 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:text="Tips Calculator"
+        android:textColor="@color/purple_500"
         android:textSize="32sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,7 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:textSize="16dp"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:text="Preencha os campos abaixo para realizar o cálculo da sua conta"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -52,7 +53,7 @@
             android:id="@+id/tie_total"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:hint="Digite o valor total da conta na mesa"
             android:inputType="numberDecimal" />
 
@@ -71,7 +72,7 @@
             android:id="@+id/tie_num_people"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:hint="Digite o numero de pessoas"
             android:inputType="numberDecimal" />
 
@@ -94,21 +95,21 @@
             android:id="@+id/rb_15"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:text="10%" />
 
         <RadioButton
             android:id="@+id/rb_18"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:text="15%" />
 
         <RadioButton
             android:id="@+id/rb_20"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:text="20%" />
 
         <EditText
@@ -118,7 +119,7 @@
             android:layout_marginStart="8dp"
             android:hint=""
             android:textSize="14dp"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:inputType="number"
             android:maxLength="2"
             android:minWidth="48dp" />  <!-- Largura mínima para facilitar o toque -->
@@ -126,7 +127,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:text="%"
             android:textSize="18sp" />
     </RadioGroup>
